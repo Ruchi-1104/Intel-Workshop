@@ -1,0 +1,67 @@
+Github repository link
+https://github.com/YogeshRaje/INTEL_FICE_C
+
+
+Invoke Intel comopler on Devcloud 
+While running On Devcloud change command in file 
+oneAPI_Essentials/01_oneAPI_Intro/run_simple.sh
+from 
+dpcpp lab/simple.cpp
+to
+dpcpp lab/helloworld.c
+
+and in lab folder add file helloworld.c 
+oneAPI_Essentials/01_oneAPI_Intro/lab/helloworld.c
+
+
+
+
+Install and Invoke Intel optimzed complier 
+
+Download link for Intel c c++ compiler 
+https://www.intel.com/content/www/us/en/developer/articles/tool/oneapi-standalone-components.html#dpcpp-cpp
+
+
+To run file using intel optimized complier 
+Step1 ) Intilaize the Intel Complier 
+a)Open command prompt 
+>cmd 
+>Cd C:\Program Files (x86)\Intel\oneAPI
+> setvar.bat
+
+b) To run c or cpp code on intel optimized complier 
+>cd C:\Users\user\Desktop\mit
+>dpcpp helloworld.c
+>helloworld
+
+
+
+Run program On Ubuntu Linux 
+step1- open newterminal 
+>nano welcome.c
+write code 
+save ctrl+X
+
+>gcc welcome.c
+Install gcc 
+>sudo get install gcc 
+>gcc welcome.c   # It will create a.out file 
+check file a.out 
+>dir 
+
+run program 
+>./a.out # It shows output 
+
+To run file with our own outpout file
+<gcc filename.c -o filename.out 
+>gcc welcome.c -o wel.out
+>dir 
+>./wel.out
+
+
+
+Install INtel's Compiler on Linux 
+
+
+
+
