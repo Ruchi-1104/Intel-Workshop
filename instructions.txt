@@ -62,6 +62,43 @@ To run file with our own outpout file
 
 Install INtel's Compiler on Linux 
 
+download comlpiler .sh file
+https://www.intel.com/content/www/us/en/developer/articles/tool/oneapi-standalone-components.html#dpcpp-cpp
+change mode of file 
+open new terminal in Downloads
+>chmod +777 filename.sh
+Run .sh file 
+>sh filename.sh
+
+Intsaller will open and install intel complier 
+-after installation it is saved on download comlpiler .sh file
+https://www.intel.com/content/www/us/en/developer/articles/tool/oneapi-standalone-components.html#dpcpp-cpp
+change mode of file 
+open new terminal in Downloads
+>chmod +777 filename.sh
+Run .sh file 
+>sh filename.sh
+
+Intsaller will open and install intel complier 
+
+after installation it is saved on location 
+/home/yogesh/intel/oneapi
+https://www.intel.com/content/www/us/en/develop/documentation/get-started-with-dpcpp-compiler/top/get-started-on-linux.html
+
+-open terminal in home
+>cd intel/oneapi
+-initialize Intel complier 
+>source setvars.sh intel64 
+
+-after initializing Intel compiler go to directory where c or c++ program (welcome.c) is saved
+>cd /home/yogesh
+
+-run program with intel complier 
+>icx welcome.c -o intelwelcomedemo.out
+>./intelwelcomedemo.out
+
+
+
 
 
 
