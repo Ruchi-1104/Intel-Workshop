@@ -1,6 +1,8 @@
 Github repository link
 https://github.com/YogeshRaje/INTEL_FICE_C
 
+To download DevC++ 
+https://sourceforge.net/projects/orwelldevcpp/
 
 Invoke Intel comopler on Devcloud 
 While running On Devcloud change command in file 
