@@ -13,4 +13,4 @@ https://sourceforge.net/projects/orwelldevcpp/
 Link for Registration on LMS 
 https://lms.fice.in/login/signup.php
 
-students have to click on the above link and register themselves in LMS once they register with all required details n mail id, then the student will get a mail for enrollment in the registered mail id and after that students have to click on enrollment n the password is MIT2022  (all captial letters)
+students have to click on the above link and register themselves in LMS once they register with all required details on mail id, then the student will get a mail for enrollment in the registered mail id and after that students have to click on enrollment n the password is MIT2022  (all captial letters)
