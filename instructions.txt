@@ -115,4 +115,4 @@ How To see the allocated resorces
 >qstat
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-https://github.com/YogeshRaje/python-dpcpp-extension-sample-code
+
