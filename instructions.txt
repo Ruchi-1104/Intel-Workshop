@@ -99,7 +99,7 @@ https://www.intel.com/content/www/us/en/develop/documentation/get-started-with-d
 >icx welcome.c -o intelwelcomedemo.out
 >./intelwelcomedemo.out
 
-
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 How To see the allocated resorces 
 1)Log in on Intel Devlcloud OneAPI 
 2)Open Terminal 
@@ -113,6 +113,6 @@ How To see the allocated resorces
 >exit
 6)To check status 
 >qstat
-
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
