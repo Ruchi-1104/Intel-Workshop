@@ -129,3 +129,39 @@ Task1-Run the program on Intel Devcloud
 5)Run your program eg helloworldwithtime.c using command
  >dpcpp helloworldwithtime.c -o helloworld.out
  >./helloworld.out 
+ 
+ 
+ 6) Request an interactive session on a DevCloud GPU node using qsub  
+qsub -I -l nodes=1:gpu:ppn=2 -d .
+
+
+7)create build.sh
+>nano build.sh
+
+8)save following code into build.sh and return to terminal 
+#!/bin/bash
+source /opt/intel/inteloneapi/setvars.sh
+make clean
+make all
+
+9)create run.sh
+>nano run.sh 
+ 
+10) Save  following code into run.sh and return to terminal 
+#!/bin/bash
+source /opt/intel/inteloneapi/setvars.sh
+dpcpp helloworldwithtime.c -o hello.out
+./hello.out
+make run
+
+
+11)run follwoing command on terminal 
+>qsub -l nodes=1:gpu:ppn=2 -d . build.sh
+
+12)run follwoing command on terminal 
+>qsub -l nodes=1:gpu:ppn=2 -d . run.sh
+
+13)To check output run command on terminal 
+>cat run.sh.oXXXX
+
+
