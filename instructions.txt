@@ -116,9 +116,14 @@ How To see the allocated resorces
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Day4 -
+
+source /opt/intel/inteloneapi/setvars.sh
 Task1-Run the program on Intel Devcloud 
 1)Open Intel Devcloud OneAPI with your LogIn Credentials
 2)Open Terminal on Intel Devcloud
+
+2a) To invove oneapi dpcpp complier 
+>source /opt/intel/inteloneapi/setvars.sh
 3)Create new Folder named cprograms under oneAPI_Essentials folder
 4)Upload your program into the folder named cprograms
 5)Run your program eg helloworldwithtime.c using command
