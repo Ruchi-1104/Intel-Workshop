@@ -115,4 +115,12 @@ How To see the allocated resorces
 >qstat
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-
+Day4 -
+Task1-Run the program on Intel Devcloud 
+1)Open Intel Devcloud OneAPI with your LogIn Credentials
+2)Open Terminal on Intel Devcloud
+3)Create new Folder named cprograms under oneAPI_Essentials folder
+4)Upload your program into the folder named cprograms
+5)Run your program eg helloworldwithtime.c using command
+ >dpcpp helloworldwithtime.c -o helloworld.out
+ >./helloworld.out 
