@@ -170,5 +170,21 @@ make run
 
 Excersice Day4 
 https://devcloud.intel.com/oneapi/documentation/base-toolkit/
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=
+
+Day5
+Task1 -Perform Intel Advisor -offload advisor for Matrix Multiplication 
+open terminal on Intel Devcloud  and execute follwoing commands
+1)$ mkdir day5
+2)$ cd day5
+3)$ git clone https://github.com/oneapi-src/oneAPI-samples.git
+4)$ cd oneAPI-samples/Tools/Advisor/matrix_multiply_advisor/
+
+5)$ cmake .
+6)$ make
+7)$ advixe-python $APM/collect.py advisor_project --config gen9 -- ./matrix.dpcpp
+8)$ advixe-python $APM/analyze.py advisor_project --config gen9 --out-dir ./analyze
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
