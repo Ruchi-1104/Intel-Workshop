@@ -165,3 +165,10 @@ make run
 >cat run.sh.oXXXX
 
 
++++++++++++++++++++++++++++++
+
+
+Excersice Day4 
+https://devcloud.intel.com/oneapi/documentation/base-toolkit/
+
+
