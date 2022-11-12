@@ -187,6 +187,8 @@ open terminal on Intel Devcloud  and execute follwoing commands
 6)$ make
 7)$ advixe-python $APM/collect.py advisor_project --config gen9 -- ./matrix.dpcpp
 8)$ advixe-python $APM/analyze.py advisor_project --config gen9 --out-dir ./analyze
+9) Check output at report.html from explorinf follwoing path
+day5/oneAPI-samples/Tools/Advisor/matrix_multiply_advisor/analyze/report.html
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
