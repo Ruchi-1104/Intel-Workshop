@@ -1,6 +1,9 @@
 Github repository link
 https://github.com/YogeshRaje/INTEL_FICE_C
 
+Register on Intel Devcloud OneAPI
+https://devcloud.intel.com/oneapi/get_started/
+
 To download DevC++ 
 https://sourceforge.net/projects/orwelldevcpp/
 
